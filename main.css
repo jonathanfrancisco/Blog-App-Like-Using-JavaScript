@@ -1,0 +1,68 @@
+body {
+	background-image: url('stars.jpg');
+	background-size: cover;
+	width: 50%;
+	margin:0 auto;
+}
+
+input,textarea {
+	border: none;
+	display: block;
+	width: 100%;
+	border-radius: 3px;
+	margin: 5px;
+	padding: 5px;
+}
+input {
+	min-height: 30px;
+}
+textarea {
+	min-height: 180px;
+}
+
+button {
+	border: none;
+	background-color: rgba(52, 152, 219, 0.5);
+	color: #fff;
+	border-radius: 5px;
+	padding: 15px;
+	margin: 5px;
+	cursor: pointer; 
+}
+
+#addPostButton {
+	float: right;
+}
+
+#addArea {
+	margin-top: 2em;
+}
+
+#postArea  {
+	margin-top: 5em;
+	color: #fff;
+	padding: .5em;
+	border-radius: 8px;
+}
+
+#postArea h1 {
+	text-decoration: underline;
+}
+
+.postButtons {
+	float: right;
+	margin-top: 2em;
+}
+
+.post {
+	margin: 0.35em .35em;
+	background-color: rgba(44,62,80, 0.5);
+	padding: 1em;
+}
+
+.post img {
+	border: 2px solid #fff;
+	border-radius: 4px;
+	width: 100%;
+	max-height: 500px;
+}
